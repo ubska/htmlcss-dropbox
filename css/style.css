@@ -7,13 +7,15 @@ body{
     font-family: Open Sans;
 }
 
-
+/* 【ＨＥＡＤＥＲ ＳＴＡＲＴ】 */
+header{
+    max-width: 1500px;
+    margin: 0 auto;
+}
 
 .topbar{
     max-width: 1500px;
     margin: 0 auto;
-    background-color: rgb(172, 143, 200);
-    
 }
 
 nav{
@@ -36,3 +38,42 @@ nav ul{
     text-decoration: none;
     color: black;
 }
+
+
+.bottombar{
+    background-color: #b4d0e7;
+    min-height: 500px;
+}
+
+.bottombar .container{
+   width: 90%;
+   margin: 0 auto;
+}
+.bottombar-title{
+    /* background-color: blanchedalmond; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 31px;
+    
+}
+
+.bottombar-row{
+    /* background-color: aliceblue; */
+    min-height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.col-text{
+    width: 40%;
+}
+.col-img{
+    width: 60%;
+}
+.col-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* 【ＨＥＡＤＥＲ ＥＮＤ】 */
