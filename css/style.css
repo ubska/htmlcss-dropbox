@@ -113,5 +113,26 @@ main .container{
     padding: 50px 0px;
 }
 
+.flex-container{
+    display: flex;
+}
 
+.col{
+    width: calc(100% / 3);
+    border: solid 1px rgb(113, 111, 111);
+    margin: 10px;
+}
+
+.customer{
+    text-align: center;
+    border-bottom: solid 1px rgb(113, 111, 111);
+}
+
+.top-card{
+    line-height: 50px;
+}
+
+.center-card{
+    line-height: 20px;
+}
 /* /////////////////////////【ＭＡＩＮ ＥＮＤ】//////////////////////////// */
